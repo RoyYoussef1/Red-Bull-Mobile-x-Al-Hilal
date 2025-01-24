@@ -54,6 +54,10 @@ body {
     font-weight: 400;
 }
 
+.video-section {
+    background-image: url('../assets/images/video-cover-ar.jpg');
+}
+
 .meet-title {
     left: inherit;
     right: 20%;

@@ -881,12 +881,13 @@ section.video-sec {
     background-color: #000;
     color: #fff;
     height: 650px;
-    background-image: url('../assets/images/Al-Hilal-Fans.png');
+    background-image: url('../assets/images/video-cover-en.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     max-width: 1440px;
     margin: 0 auto;
+    border: 8px solid #fff;
 }
 
 .video-banner {
@@ -914,6 +915,7 @@ section.video-sec {
 }
 
 .hilal-player-wrapper {
+    display: none;
     position: absolute;
     bottom: 10px;
 }
