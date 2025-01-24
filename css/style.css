@@ -1,0 +1,1172 @@
+* {
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    -ms-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
+
+/*
+  :root {
+    --main-pad-horiz: 120px;
+    --blks-pad-horiz: 30px;
+    --blks-margin-fix: -30px;
+  } */
+
+@font-face {
+    font-family: 'Bull';
+    src: url('../font/bull-font/Bull-Regular.eot');
+    src: url('../font/bull-font/Bull-Regular.woff2') format('woff2'),
+        url('../font/bull-font/Bull-Regular.woff') format('woff'),
+        url('../font/bull-font/Bull-Regular.ttf') format('truetype'),
+        url('../font/bull-font/Bull-Regular.svg') format('svg');
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bull';
+    src: url('../font/bull-font/Bull-Bold.eot');
+    src: url('../font/bull-font/Bull-Bold.woff2') format('woff2'),
+        url('../font/bull-font/Bull-Bold.woff') format('woff'),
+        url('../font/bull-font/Bull-Bold.ttf') format('truetype'),
+        url('../font/bull-font/Bull-Bold.svg') format('svg');
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bull';
+    src: url('../font/bull-font/Bull-Medium.eot');
+    src: url('../font/bull-font/Bull-Medium.woff2') format('woff2'),
+        url('../font/bull-font/Bull-Medium.woff') format('woff'),
+        url('../font/bull-font/Bull-Medium.ttf') format('truetype'),
+        url('../font/bull-font/Bull-Medium.svg') format('svg');
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GESS';
+    src: url('../font/gess/GESSTwoLight-Light.eot');
+    src: url('../font/gess/GESSTwoLight-Light.woff2') format('woff2'),
+        url('../font/gess/GESSTwoLight-Light.woff') format('woff'),
+        url('../font/gess/subset-GESSTwoLight-Light.ttf') format('truetype');
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GESS';
+    src: url('../font/gess/GESSTwoBold-Bold.eot');
+    src: url('../font/gess/GESSTwoBold-Bold.woff2') format('woff2'),
+        url('../font/gess/GESSTwoBold-Bold.woff') format('woff'),
+        url('../font/gess/subset-GESSTwoBold-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GESS';
+    src: url('../font/gess/GESSTwoMedium-Medium.eot');
+    src: url('../font/gess/GESSTwoMedium-Medium.woff2') format('woff2'),
+        url('../font/gess/GESSTwoMedium-Medium.woff') format('woff'),
+        url('../font/gess/subset-GESSTwoMedium-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Bull', sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    color: #282828;
+}
+
+p {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a, input, button, textarea {
+    outline: none !important;
+    text-decoration: none !important;
+    color: #fff;
+}
+
+textarea, input, select {
+    outline: none !important;
+}
+
+.introduction-section {
+    /* background-image: url('../assets/images/main-background-v2.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* height: 100vh; */
+    position: relative;
+}
+
+.main-menu {
+    padding: 40px 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    transition: 200ms ease-in-out;
+}
+
+.main-menu.scrolled {
+    background-color: rgba(1, 18, 53, 0.8);
+    padding: 25px 45px;
+}
+
+.main-menu-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-logos .rbm-logo {
+    max-width: 250px;
+    position: relative;
+}
+
+.menu-logos .rbm-logo::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    right: -15px;
+    height: 85%;
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.main-menu-item.menu-logos {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.hilal-mini-logo {
+    max-width: 25px;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.menu-links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-menu-item.menu-links {
+    border: 2px solid rgba(186, 186, 186, 0.4);
+    border-radius: 70px;
+    padding: 14px 40px;
+    background-color: #6c6e6e;
+}
+
+.menu-links-wrapper .menu-link a {
+    font-weight: 500;
+}
+
+.menu-links-wrapper .menu-link a:hover {
+    font-weight: 700;
+}
+
+.join-us-btn a {
+    background-color: rgba(219, 10, 64, 1);
+    border: 1px solid rgba(219, 10, 64, 1);
+    border-radius: 100px;
+    padding: 14px 50px;
+    font-weight: 700;
+    transition: all .3s;
+}
+
+.join-us-btn a:hover {
+    background-color: #fff;
+    border: 1px solid #011235;
+    color: rgba(219, 10, 64, 1);
+}
+
+.menu-buttons-wrapper {
+    display: flex;
+    gap: 75px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.language-btn {
+    position: relative;
+    font-weight: 700;
+}
+
+.language-btn a {
+    transition: 300ms ease-in-out;
+    font-family: 'GESS';
+}
+
+.language-btn a:hover {
+    color: rgba(219, 10, 64, 1);
+}
+
+.language-btn a::before {
+    content: url('../assets/images/lang-logo.svg');
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    left: -35px;
+    top: -5px;
+}
+
+.hilal-main-logo {
+    padding-top: 175px;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hilal-main-logo-container {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+section.hilal-footer {
+    position: relative;
+    background-color: rgba(1, 18, 53, 1);
+    color: #fff;
+}
+
+section.hilal-footer::after {
+    content: '';
+    background-image: url('../assets/images/footer-pattern.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+}
+
+.footer-pattern-wrapper {
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+}
+
+.footer-pattern {
+    max-width: 300px;
+}
+
+.rbm-logo-footer {
+    max-width: 230px;
+    position: relative;
+}
+
+.rbm-logo-footer::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    right: -15px;
+    height: 85%;
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.footer-follow-wrap {
+    padding-top: 35px;
+}
+
+.hilal-footer-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.hilal-footer-container {
+    max-width: 1100px;
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-follow .follow-text {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.footer-social a {
+    max-width: 25px;
+    display: block;
+    transition: 300ms ease-in-out;
+}
+
+.footer-social-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-logo-cont {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.download-icon a {
+    max-width: 150px;
+    display: block;
+    transition: 300ms ease-in-out;
+}
+
+.download-icon a:hover {
+    transform: scale(1.05);
+}
+
+.footer-social a:hover {
+    transform: scale(1.10);
+}
+
+.download-icons-wrap {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-download-cont .download-text {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.footer-logos-icons-cont {
+    position: relative;
+}
+
+.footer-logos-icons-cont::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    right: -60%;
+    height: 100%;
+    border-right: 1px solid #fff;
+}
+
+.second-section.background-only-section {
+    background-color: rgba(1, 18, 53, 1);
+    position: relative;
+    height: 550px;
+}
+
+.second-sec-bg-wrap {
+    position: relative;
+    height: 100%;
+}
+
+.second-left-pattern-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.second-right-pattern-wrapper {
+    position: absolute;
+    right: 70px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.second-right-pattern {
+    max-width: 450px;
+}
+
+.second-left-pattern {
+    max-width: 620px;
+}
+
+.hilal-benefits-sec {
+    color: #fff;
+}
+
+.hilal-bundles-section {
+    position: relative;
+    background-color: rgba(246, 246, 246, 1);
+    min-height: 100vh;
+}
+
+.white-section {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(246, 246, 246, 1);
+}
+
+.hilal-bundles-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.hilal-bundles-container {
+    padding: 420px 20px 80px;
+}
+
+.bundle-section-title h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgba(51, 51, 51, 1);
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.hilal-bundles-section .selector-option {
+    color: rgba(51, 51, 51, 1);
+    font-weight: 500;
+    font-size: 22px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.hilal-bundles-section .selector-option:hover {
+    opacity: 0.7;
+}
+
+.hilal-bundles-section .selector-option.active-bundle-selector {
+    color: rgba(219, 10, 64, 1);
+}
+
+.bundle-type-wrapper {
+    padding-bottom: 60px;
+}
+
+.bundle-types {
+    background-color: #fff;
+    position: relative;
+    z-index: 10;
+    border: 1px solid rgba(186, 186, 186, 0.4);
+    border-radius: 96px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 14, 40, 0.05);
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bundle-type-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.bundle-pattern-wrapper {
+    position: absolute;
+    right: 0;
+    top: 80px;
+}
+
+.bundle-pattern {
+    max-width: 550px;
+}
+
+.download-app-section {
+    display: block;
+    position: relative;
+    background-color: rgba(1, 18, 53, 1);
+    color: #fff;
+}
+
+.download-app-icon {
+    max-width: 90px;
+}
+
+.download-app-stores {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.download-text-desc {
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.download-text-title h2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.download-text-wrap {
+    max-width: 600px;
+}
+
+.download-app-pattern-wrapper {
+    position: absolute;
+    right: 0;
+    top: -20%;
+}
+
+.download-app-pattern {
+    max-width: 575px;
+}
+
+/* News Section */
+
+.hilal-news-section {
+    background-color: rgba(246, 246, 246, 1);
+    position: relative;
+}
+
+.hilal-news-slider {
+    max-width: 1200px;
+}
+
+.hilal-news-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 40px; */
+    /* justify-content: space-between; */
+    /* padding: 80px 0px 120px 250px; */
+    padding: 80px 0px 80px 0;
+    text-align: center;
+}
+
+.hilal-news-slider-card {
+    padding: 0 10px;
+}
+
+.news-card-info {
+    padding: 15px 25px;
+    color: rgba(51, 51, 51, 1);
+    background: #fff;
+}
+
+.news-title {
+    padding: 10px 0 40px;
+}
+
+.news-title h3 {
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.news-date {
+    font-size: 15px;
+}
+
+.news-summary {
+    font-size: 15px;
+    color: rgba(154, 161, 169, 1);
+    padding-bottom: 10px;
+}
+
+.hilal-news-text {
+    max-width: 500px;
+    position: relative;
+    z-index: 10;
+}
+
+.hilal-news-title {
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.hilal-news-title h2 {
+    line-height: 54px;
+    font-size: 50px;
+}
+
+.hilal-news-description {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    padding-bottom: 25px;
+}
+
+.hilal-news-cta {
+    padding-top: 20px;
+}
+
+.hilal-news-cta a {
+    background-color: rgba(219, 10, 64, 1);
+    border: 1px solid rgba(219, 10, 64, 1);
+    padding: 15px 60px;
+    border-radius: 65px;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all .3s;
+}
+
+.hilal-news-cta a:hover {
+    border-color:#011235;
+    background-color: transparent;
+    color: rgba(219, 10, 64, 1);
+}
+
+.hilal-news-section button.slick-arrow.slick-prev:before {
+    content: url('../assets/images/left-arrow.svg');
+}
+
+.hilal-news-section button.slick-arrow.slick-next:before {
+    content: url('../assets/images/right-arrow.svg');
+}
+
+.hilal-news-section button.slick-next.slick-arrow {
+    position: absolute;
+    top: inherit;
+    bottom: -60px;
+    left: 70px;
+    transform: scale(0.8);
+}
+
+.hilal-news-section button.slick-prev.slick-arrow {
+    position: absolute;
+    bottom: -60px;
+    top: inherit;
+    left: 0;
+    transform: scale(0.8);
+}
+
+.hilal-news-section .slick-prev:before, .hilal-news-section .slick-next:before, .players-section .slick-prev:before, .players-section .slick-next:before {
+    opacity: 1;
+}
+
+.hilal-news-section .slick-prev.slick-disabled:before, .hilal-news-section .slick-next.slick-disabled:before, .players-section .slick-prev.slick-disabled:before, .players-section .slick-next.slick-disabled:before {
+    opacity: 0.5;
+}
+
+.hilal-news-slider-card:first-child {
+    padding-left: 0;
+}
+
+.news-pattern-wrapper {
+    position: absolute;
+    bottom: -200px;
+}
+
+.news-pattern {
+    max-width: 900px;
+}
+
+/* Bundles */
+
+.hilali-bundles-card-cont {
+    padding: 25px 20px;
+    position: relative;
+}
+
+.postpaid-benefit {
+    background: rgba(219, 10, 64, 1);
+    padding: 8px 15px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.postpaid-benefit-cont {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.hilali-bundles-card {
+    max-width: 400px;
+    height: 680px !important;
+    position: relative;
+    z-index: 10;
+    border: 8px solid #fff;
+    color: #fff;
+    background-color: rgba(0, 40, 240, 1);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.postpaid-bundles-wrapper {
+    display: none;
+}
+
+.bundle-social-wrap {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+.bundle-social {
+    max-width: 28px;
+}
+
+.bundle-data {
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.bundle-title {
+    font-weight: 700;
+    font-size: 36px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.bundle-content {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 20px;
+}
+
+.hilali-bundles-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+}
+
+.hilali-shape {
+    height: 195px;
+    width: 90%;
+    bottom: -8px;
+    background-color: rgba(1, 29, 177, 1);
+    position: absolute;
+    left: -8px;
+    display: block;
+    clip-path: polygon(0 100%, 0 0, 100% 30%, 100% 100%);
+    padding: 45px 40px 15px 28px;
+}
+
+.bundle-price {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.bundle-price .currency {
+    font-size: 25px;
+}
+
+.validity {
+    font-weight: 700;
+}
+
+.vat {
+    padding-top: 30px;
+}
+
+.hilali-shape-content {
+    position: relative;
+}
+
+.hilali-shape-content::after {
+    content: '';
+    border: 1.5px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+    position: absolute;
+    top: 72px;
+}
+
+.plan-details {
+    padding-top: 5px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.plan-details::before {
+    content: url('../assets/images/plan-details-icon.svg');
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+.plan-details a {
+    text-decoration: underline !important;
+    transition: 200ms ease-in-out;
+}
+
+.plan-details a:hover {
+    font-weight: 500;
+}
+
+.left-side-pattern {
+    max-width: 550px;
+}
+
+.download-app-sec-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+    padding: 25px 0;
+}
+
+.download-text-sec {
+    flex: 0.65;
+}
+
+.qr-download-app-wrapper {
+    position: absolute;
+    left: 20%;
+    top: 105px;
+}
+
+.qr-download-app {
+    max-width: 270px;
+    position: relative;
+}
+
+.qr-download-app-wrapper .qr-text {
+    position: absolute;
+    max-width: 200px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(219, 10, 64, 1);
+    bottom: 50px;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+.phone-download {
+    position: absolute;
+    top: 55px;
+    max-width: 300px;
+    left: 160px; 
+}
+
+.download-app-store a img {
+    transition: 300ms ease-in-out;
+}
+
+.download-app-store a img:hover {
+    transform: scale(1.05);
+}
+
+
+/* Video */
+
+section.video-sec {
+    position: absolute;
+    width: 100%;
+    z-index: 50;
+    top: 50%;
+}
+
+.video-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+    height: 650px;
+    background-image: url('../assets/images/Al-Hilal-Fans.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.video-banner {
+    max-width: 100%;
+    height: auto;
+}
+
+.video-button {
+    position: absolute;
+    z-index: 10;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 32px;
+    font-weight: bold;
+    transition: all .3s;
+}
+
+.video-button:hover {
+    transform: scale(1.08);
+}
+
+.hilal-player-wrapper {
+    position: absolute;
+    bottom: 10px;
+}
+
+.hilal-player {
+    max-width: 920px;
+}
+
+.video-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); 
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+    display: none; 
+}
+
+.popup-content {
+    position: relative;
+    width: 80%;
+    max-width: 950px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow for better visuals */
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 26px;
+    color: #000;
+    cursor: pointer;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+}
+
+section.hilal-benefits-sec {
+    width: 100%;
+    position: absolute;
+    bottom: -130px;
+    left: 50%;
+    z-index: 10;
+    transform: translateX(-50%);
+}
+
+.benefit-icon-wrap {
+    border: 4px solid #fff;
+    width: 160px;
+    margin: 0 auto;
+    min-height: 160px;
+    border-radius: 90px;
+    padding: 20px;
+    background-color: rgba(219, 10, 64, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.benefit-icon-wrap.active-benefit-icon {
+    background-color: #011235;
+}
+
+.benefit-icon-wrap:hover {
+    background-color: #011235;
+}
+
+.benefit-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 50px;
+}
+
+.benefit-icon {
+    max-width: 60px;
+    outline: none;
+}
+
+.benefit-icon:focus {
+    outline: none;
+}
+
+.benefit-text {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.benefits-title {
+    font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    /* padding-left: 40px; */
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.hilal-benefits-cont {
+    padding: 0 20px;
+    position: relative;
+}
+
+.ticket-icon {
+    max-width: 80px;
+    outline:none;
+}
+
+.ticket-icon:focus {
+    outline:none;
+}
+
+.ticket-text {
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    display: none;
+    outline: none;
+}
+.ticket-text:focus {
+    outline: none;
+}
+
+.rbm-small-logo {
+    max-width: 125px;
+    padding-bottom: 20px;
+    display: none;
+    outline: none;
+}
+
+.ticket-container-content {
+    background-color: rgba(1, 18, 53, 1);
+    padding: 20px 15px;
+}
+
+.ticket-container-content {
+    background-color: rgba(1, 18, 53, 1);
+    padding: 20px 15px;
+    width: 160px;
+    border: 4px solid #fff;
+    border-radius: 90px;
+    height: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.players-section {
+    position: relative;
+    min-height: 770px;
+    background-image: url('../assets/images/Group\ 116047739.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    z-index: 10;
+    color: #fff;
+}
+
+.meet-title h2 {
+    font-size: 44px;
+    color: #fff;
+    max-width: 240px;
+}
+
+.meet-title {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+.player-image {
+    width: 75%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-52%);
+}
+
+.player-number {
+    font-weight: 700;
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+
+.player-name h2 {
+    font-size: 36px;
+}
+
+.player-info {
+    position: absolute;
+    left: 65%;
+    bottom: 25%;
+}
+
+.hilal-page .players-slider-item {
+    height: 770px;
+    position: relative;
+    overflow: hidden;
+}
+
+.players-slider-wrap .slick-prev::before {
+    content: url('../assets/images/left-white-arrow.svg');
+}
+
+.players-slider-wrap .slick-next::before {
+    content: url('../assets/images/right-white-arrow.svg');
+}
+
+.players-slider-wrap .slick-next {
+    position: absolute;
+    bottom: 18%;
+    left: 65%;
+    right: inherit;
+    top: inherit;
+    transform: translateX(65px);
+    z-index: 120;
+}
+
+.players-slider-wrap .slick-prev {
+    position: absolute;
+    bottom: 18%;
+    left: 65%;
+    top: inherit;
+    transform: translateX(0px);
+    z-index: 120;
+}
+
+.hilal-news-slider-wrapper {
+    display: none;
+}
+
+#spline {
+    width: 100% !important;
+    display: none !important;
+}

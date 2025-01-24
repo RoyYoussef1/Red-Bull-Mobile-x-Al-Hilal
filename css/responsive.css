@@ -1,0 +1,1584 @@
+@media only screen and (max-width: 1920px) {
+    .players-section {
+        min-height: 600px;
+    }
+
+    .hilal-page .players-slider-item {
+        height: 600px;
+    }
+
+    /* .benefits-title {
+        left: 30%;
+    } */
+
+    .qr-download-app-wrapper {
+        left: 25%;
+        top: 105px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .hilal-news-container {
+        padding: 80px 0px 80px;
+    }
+
+    .menu-logos .rbm-logo {
+        max-width: 220px;
+    }
+
+    .hilal-news-slider {
+        max-width: 1050px;
+    }
+
+    .main-menu-item.menu-links {
+        padding: 14px 30px;
+    }
+
+    /* .benefits-title {
+        left: 20%;
+    } */
+
+    .players-section {
+        min-height: 500px;
+    }
+
+    .player-image {
+        width: 80%;
+        transform: translateX(-50%);
+    }
+
+    .hilal-page .players-slider-item {
+        height: 500px;
+    }
+
+    .news-summary {
+        font-size: 14px;
+    }
+
+    .news-card-info {
+        padding: 15px;
+    }
+
+    .qr-download-app-wrapper {
+        left: 35%;
+    }
+
+    .second-right-pattern-wrapper {
+        right: 50px;
+    }
+
+    .video-section {
+        height: 500px;
+        max-width: 1000px;
+        border: 8px solid #fff;
+        border-top: 0;
+        border-bottom: 0;
+    }
+
+    .hilal-player {
+        max-width: 750px;
+    }
+
+    .hilal-player-wrapper {
+        bottom: 8px;
+    }
+
+    .hilal-bundles-container {
+        padding: 265px 20px 50px;
+    }
+
+    /* section.hilal-benefits-sec {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    } */
+
+    .hilal-news-cta a {
+        padding: 15px 45px;
+    }
+
+    .hilal-main-logo {
+        padding-top: 150px;
+    }
+
+    .player-name h2 {
+        font-size: 32px;
+    }
+
+    .player-number {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    .meet-title {
+        left: 15%;
+        top: 45%;
+    }
+
+    .meet-title h2 {
+        font-size: 40px;
+        max-width: 220px;
+    }
+
+    .download-text-sec {
+        padding-right: 15px;
+    }
+
+    .menu-buttons-wrapper {
+        gap: 40px;
+    }
+
+    .hilal-main-logo-container {
+        max-width: 250px;
+    }
+}
+
+@media only screen and (max-width: 1340px) {
+    .main-menu {
+        padding: 40px;
+    }
+
+    .menu-logos .rbm-logo {
+        max-width: 200px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .main-menu.scrolled {
+        padding: 20px 30px;
+    }
+
+    .main-menu-item.menu-links {
+        padding: 14px 25px;
+    }
+
+    .main-menu-item.menu-logos {
+        gap: 25px;
+    }
+
+    .menu-logos .rbm-logo {
+        max-width: 180px;
+    }
+
+    .hilal-mini-logo {
+        max-width: 20px;
+    }
+
+    .menu-links-wrapper {
+        gap: 20px;
+    }
+
+    .join-us-btn a {
+        padding: 14px 35px;
+    }
+
+    .footer-pattern {
+        max-width: 220px;
+    }
+
+    .bundle-section-title h2 {
+        font-size: 36px;
+        padding-bottom: 35px;
+    }
+
+    .hilal-bundles-section .selector-option {
+        font-size: 21px;
+        padding: 16px 20px;
+    }
+
+    .player-image {
+        width: 95%;
+    }
+
+    .bundle-type-wrapper {
+        padding-bottom: 50px;
+    }
+
+    /* section.hilal-benefits-sec {
+        margin-top: 34%;
+        transform: translateY(-20px);
+    } */
+
+    .hilal-news-cta a {
+        padding: 15px 55px;
+    }
+
+    .hilal-news-title h2 {
+        line-height: 50px;
+        font-size: 46px;
+    }
+
+    .hilal-news-slider {
+        max-width: 1240px;
+    }
+
+    /* .benefit-icon-wrap {
+        width: 140px;
+        height: 140px;
+    } */
+}
+
+@media only screen and (max-width: 1150px) {
+    .menu-logos .rbm-logo {
+        max-width: 150px;
+    }
+
+    .menu-links-wrapper .menu-link a {
+        font-size: 15px;
+    }
+
+    .main-menu {
+        padding: 30px;
+    }
+
+    .main-menu-item.menu-links {
+        padding: 13px 20px;
+    }
+
+    .join-us-btn a {
+        padding: 14px 30px;
+    }
+
+    .menu-links-wrapper {
+        gap: 14px;
+    }
+
+    .language-btn a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .left-side-pattern {
+        max-width: 420px;
+    }
+
+    .hilal-news-container {
+        padding: 70px 0px 70px;
+    }
+
+    .qr-download-app {
+        max-width: 200px;
+    }
+
+    .phone-download {
+        top: 55px;
+        max-width: 210px;
+        left: 120px;
+    }
+
+    .qr-download-app-wrapper {
+        left: 32%;
+        top: 65px;
+    }
+
+    .download-app-pattern {
+        max-width: 500px;
+    }
+
+    .download-text-sec {
+        flex: 0.7;
+        padding-right: 60px;
+    }
+
+    .main-menu {
+        padding: 25px;
+    }
+
+    .main-menu.scrolled {
+        padding: 25px 15px;
+    }
+
+    .main-menu-item.menu-links {
+        padding: 12px 20px;
+    }
+
+    .hilal-main-logo {
+        padding-top: 105px;
+    }
+
+    .menu-logos .rbm-logo {
+        max-width: 140px;
+    }
+
+    .menu-links-wrapper {
+        gap: 12px;
+    }
+
+    .hilal-mini-logo {
+        max-width: 16px;
+    }
+
+    .language-btn::before {
+        left: -30px;
+        transform: scale(0.8);
+    }
+
+    .second-right-pattern {
+        max-width: 320px;
+    }
+
+    .second-right-pattern-wrapper {
+        right: 30px;
+    }
+
+    .bundle-title {
+        font-size: 30px;
+    }
+
+    .bundle-type-selector {
+        gap: 45px;
+    }
+
+    .bundle-section-title h2 {
+        font-size: 33px;
+        padding-bottom: 25px;
+    }
+
+    .bundle-type-wrapper {
+        padding-bottom: 40px;
+    }
+
+    .video-section {
+        height: 440px;
+        max-width: 900px;
+    }
+
+    .hilal-player {
+        max-width: 600px;
+    }
+
+    .hilal-player-wrapper {
+        bottom: 7px;
+    }
+
+    section.video-sec {
+        top: 60%;
+    }
+
+    .hilal-bundles-container {
+        padding: 255px 20px 45px;
+    }
+
+    .hilal-news-title h2 {
+        font-size: 38px;
+    }
+
+    .hilal-news-description {
+        font-size: 17px;
+        line-height: 26px;
+        padding-bottom: 25px;
+    }
+
+    .benefits-title {
+        font-size: 23px;
+        /* left: 10%; */
+    }
+
+    .ticket-text {
+        font-size: 16px;
+    }
+
+    .benefit-text {
+        font-size: 21px;
+        padding-top: 15px;
+    }
+
+    /* .benefit-icon-wrap {
+        width: 125px;
+        height: 125px;
+    } *
+
+    .ticket-container-content {
+        width: 140px;
+        height: 250px;
+        margin: 0 auto;
+    }
+
+    .ticket-icon {
+        max-width: 70px;
+    }
+
+    /* section.hilal-benefits-sec {
+        margin-top: 10%;
+        transform: translateY(0);
+    } */
+
+    .meet-title {
+        display: none;
+    }
+
+    .player-name h2 {
+        font-size: 26px;
+    }
+
+    .player-number {
+        font-size: 24px;
+        padding-bottom: 5px;
+    }
+
+    .players-slider-wrap .slick-next {
+        bottom: 25%;
+        left: 70%;
+    }
+
+    .players-slider-wrap .slick-prev {
+        left: 70%;
+        bottom: 25%;
+    }
+
+    .popup-content {
+        max-width: 750px;
+    }
+
+    .players-section {
+        min-height: 400px;
+    }
+
+    .hilal-page .players-slider-item {
+        height: 400px;
+    }
+
+    .player-info {
+        left: 70%;
+        bottom: 35%;
+    }
+
+    .qr-download-app-wrapper .qr-text {
+        width: 100%;
+        max-width: 160px;
+        bottom: 30px;
+    }
+
+    .hilal-main-logo-container {
+        max-width: 200px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .main-menu-item.menu-links {
+        display: none;
+    }
+
+    .menu-logos .rbm-logo {
+        max-width: 190px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    section.hilal-benefits-sec {
+        display: block;
+        bottom: -25%;
+    }
+
+    .players-section {
+        background-image: url('../assets/images/players-bg.png');
+    }
+
+    .qr-download-app-wrapper {
+        display: none;
+    }
+
+    .second-right-pattern-wrapper {
+        display: none;
+    }
+
+    .second-section.background-only-section {
+        height: 400px;
+    }
+
+    .second-left-pattern {
+        max-width: 450px;
+    }
+
+    .second-left-pattern-wrapper {
+        left: -100px;
+    }
+
+    /* .download-app-pattern-wrapper {
+        display: none;
+    } */
+
+    .download-app-pattern {
+        max-width: 350px;
+    }
+
+    .news-title {
+        padding: 10px 0 20px;
+    }
+
+    .news-title h3 {
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .hilal-main-logo {
+        padding-top: 70px;
+    }
+
+    .hilal-news-title h2 {
+        line-height: 45px;
+        font-size: 32px;
+    }
+
+    .hilal-news-description {
+        font-size: 16px;
+        line-height: 26px;
+        padding-bottom: 25px;
+    }
+
+    .bundle-title {
+        font-size: 30px;
+    }
+
+    .bundle-data {
+        font-size: 16px;
+    }
+
+    .bundle-price {
+        font-size: 28px;
+    }
+
+    .bundle-price .currency {
+        font-size: 22px;
+    }
+
+    .bundle-social-wrap {
+        gap: 10px;
+        padding-top: 5px;
+    }
+
+    .hilal-bundles-section .selector-option {
+        font-size: 19px;
+        padding: 12px 20px;
+    }
+
+    .bundle-section-title h2 {
+        font-size: 32px;
+        padding-bottom: 20px;
+    }
+
+    .bundle-type-wrapper {
+        padding-bottom: 35px;
+    }
+
+    .hilal-bundles-container {
+        padding: 265px 15px 80px;
+    }
+
+    .hilali-bundles-container {
+        gap: 30px;
+    }
+
+    .bundle-types {
+        max-width: 500px;
+    }
+
+    .download-app-sec-container {
+        align-items: baseline;
+        flex-direction: column-reverse;
+        gap: 40px;
+    } 
+
+    .download-text-sec {
+        flex: 1;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .phone-download {
+        top: inherit;
+        max-width: 230px;
+        left: 150px;
+        bottom: -55px;
+    }
+
+    .download-text-title h2 {
+        font-size: 32px;
+        padding-top: 15px;
+    }
+
+    .download-text-desc {
+        font-size: 18px;
+        padding-top: 15px;
+    }
+
+    .download-app-stores {
+        gap: 15px;
+        padding-top: 20px;
+    }
+
+    .download-app-icon {
+        max-width: 70px;
+    }
+
+    .hilal-footer-container {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 35px 15px;
+    }
+
+    .footer-logos-icons-cont::after {
+        display: none;
+    }
+
+    .footer-follow-wrap {
+        padding-top: 15px;
+    }
+
+    .footer-logos-icons-cont {
+        padding-bottom: 25px;
+    }
+    
+    .footer-download-cont {
+        padding-top: 25px;
+        border-top: 0.5px solid;
+        width: 100%;
+    }
+
+    .footer-download-cont .download-text {
+        font-size: 17px;
+        padding-bottom: 15px;
+    }
+
+    .hilal-news-container {
+        padding: 80px 0 60px;
+    }
+
+    .hilal-news-cta a {
+        font-size: 16px;
+    }
+
+    .hilal-news-section button.slick-next.slick-arrow {
+        bottom: -45px;
+    }
+    
+    .hilal-news-section button.slick-prev.slick-arrow {
+        bottom: -45px;
+    }
+
+    .menu-logos .rbm-logo {
+        max-width: 170px;
+    }
+
+    .hilal-mini-logo {
+        max-width: 20px;
+    }
+
+    .join-us-btn a {
+        padding: 14px 40px;
+    }
+
+    .language-btn a {
+        font-size: 0;
+    }
+
+    .language-btn a::before {
+        left: -30px;
+    }
+
+    .language-btn::before {
+        transform:scale(1);
+        top: -14px;
+    }
+
+    .main-menu {
+        padding: 35px 25px;
+    }
+
+    .hilal-main-logo-container {
+        max-width: 200px;
+    }
+
+    /* .introduction-section {
+        height: 600px;
+    } */
+
+    .video-wrapper {
+        padding: 0 15px;
+    }
+
+    .video-section {
+        height: 400px;
+        border: 6px solid #fff;
+        border-top: 0;
+        border-bottom: 0;
+    }
+
+    .hilal-benefits-cont {
+        padding: 0;
+    }
+
+    .ticket-icon {
+        max-width: 50px;
+    }
+
+    .ticket-text {
+        font-size: 14px;
+        display: block !important;
+    }
+
+    .rbm-small-logo {
+        display: block !important;
+    }
+
+    .benefit-wrapper {
+        display: block;
+        padding-left: 15px;
+    }
+
+    .benefits-title {
+        top: -50px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .benefit-icon-wrap {
+        min-height: 210px;
+        width: 140px;
+        padding: 10px;
+    }
+
+    /* .benefit-icon-wrap {
+        width: 120px;
+        height: 120px;
+    } */
+
+    .ticket-container-content {
+        width: 150px;
+        height: 225px;
+    }
+
+    .players-section {
+        height: 600px;
+    }
+
+    .hilal-page .players-slider-item {
+        height: 600px;
+    }
+
+    .player-image {
+        width: 115%;
+    }
+
+    .player-info {
+        right: inherit;
+        bottom: inherit;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 70px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .players-slider-wrap .slick-prev {
+        right: inherit;
+        bottom: inherit;
+        left: 50%;
+        transform: translateX(-65px);
+        top: 160px;
+    }
+
+    .players-slider-wrap .slick-next {
+        right: inherit;
+        bottom: inherit;
+        left: 50%;
+        transform: translateX(0);
+        top: 160px;
+    }
+
+    .player-number {
+        font-size: 22px;
+        text-align: center;
+        padding-bottom: 7px;
+    }
+
+    .player-name h2 {
+        font-size: 25px;
+    }
+
+    .benefit-icon {
+        max-width: 45px;
+    }
+
+    spline-viewer {
+        height: 60vh;
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    .hilali-bundles-container {
+        display: block;
+    }
+
+    .hilali-bundles-card {
+        margin-right: 15px;
+    }
+
+    .bundle-pattern-wrapper {
+        display: none;
+    }
+
+    .news-pattern-wrapper {
+        bottom: -165px;
+    }
+
+    .footer-pattern {
+        max-width: 180px;
+    }
+
+    .benefit-text {
+        font-size: 19px
+    }
+
+    spline-viewer {
+        height: 50vh;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    /* .benefit-icon-wrap {
+        width: 100px;
+        height: 100px;
+    } */
+
+    .ticket-container-content {
+        width: 130px;
+        height: 210px;
+    }
+
+    .benefit-icon {
+        max-width: 40px;
+    }
+
+    .benefit-icon-wrap, .ticket-container-content {
+        border: 2.5px solid #fff;
+    }
+
+    .benefit-text {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .benefits-title {
+        font-size: 19px;
+    }
+
+    spline-viewer {
+        height: 45vh;
+    }
+
+    .footer-pattern-wrapper {
+        display: none;
+    }
+
+    .video-section {
+        height: 320px;
+        border: 5px solid #fff;
+        border-top: 0;
+        border-bottom: 0;
+    }
+
+    .video-button {
+        width: 65px;
+        height: 65px;
+    }
+
+    .hilal-news-cta {
+        padding-top: 10px;
+    }
+
+    .hilal-news-title {
+        padding-bottom: 10px;
+    }
+
+    .hilal-player {
+        max-width: 450px;
+    }
+
+    .hilal-player-wrapper {
+        bottom: 5px;
+    }
+
+    .hilal-bundles-container {
+        padding: 185px 15px 75px;
+    }
+
+    .bundle-section-title h2 {
+        font-size: 28px;
+    }
+
+    .second-section.background-only-section {
+        height: 350px;
+    }
+
+    section.video-sec {
+        top: 55%;
+    }
+
+    .hilal-bundles-section .selector-option {
+        font-size: 18px;
+    }
+
+    .bundle-type-selector {
+        gap: 30px;
+    }
+
+    .bundle-title {
+        font-size: 28px;
+    }
+
+    .hilal-news-title h2 {
+        line-height: 38px;
+        font-size: 28px;
+    }
+
+    .hilal-news-description {
+        line-height: 24px;
+        padding-bottom: 20px;
+    }
+
+    .hilal-news-cta a {
+        padding: 13px 50px;
+    }
+
+    .download-text-title h2 {
+        font-size: 28px;
+    }
+
+    .player-image {
+        width: 150%;
+    }
+
+    /* .hilal-page .players-slider-item, .players-section {
+        height: 760px;
+    } */
+
+    .popup-content {
+        padding: 10px;
+    }
+
+    .hilal-main-logo {
+        padding-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    spline-viewer {
+        height: 45vh;
+    }
+
+    .hilal-bundles-section .selector-option {
+        font-size: 18px;
+    }
+
+    .bundle-section-title h2 {
+        font-size: 25px;
+    }
+
+    .hilal-bundles-container {
+        padding: 225px 15px 75px;
+    }
+
+    .bundle-title {
+        font-size: 25px;
+    }
+
+    .hilali-bundles-card-cont {
+        padding: 20px 15px;
+    }
+
+    .hilali-bundles-card {
+        height: 565px !important;
+    }
+
+    .download-app-icon {
+        max-width: 55px;
+    }
+
+    .download-text-title h2 {
+        font-size: 26px;
+    }
+
+    .download-text-desc {
+        font-size: 16px;
+    }
+
+    .download-app-pattern {
+        max-width: 270px;
+    }
+
+    .download-app-pattern-wrapper {
+        right: 0;
+        top: -12%;
+    }
+
+    .footer-download-cont .download-text, .footer-follow .follow-text {
+        font-size: 16px;
+    }
+
+    .second-section.background-only-section {
+        height: 330px;
+    }
+
+    .second-left-pattern {
+        max-width: 400px;
+    }
+
+    .second-left-pattern-wrapper {
+        left: -120px;
+    }
+
+    .news-pattern-wrapper {
+        bottom: -140px;
+    }
+
+    .hilal-footer-container {
+        padding: 25px 15px;
+    }
+
+    .rbm-logo-footer {
+        max-width: 215px;
+    }
+
+    .rbm-small-logo {
+        max-width: 100px;
+    }
+
+    .rbm-small-logo {
+        padding-bottom: 10px;
+    }
+
+    .main-menu {
+        padding: 20px 25px;
+    }
+
+    .hilal-main-logo-container {
+        max-width: 150px;
+    }
+
+    .hilal-main-logo {
+        padding-top: 70px;
+    }
+
+    .join-us-btn a {
+        padding: 12px 35px;
+    }
+
+    section.hilal-benefits-sec {
+        bottom: -45%;
+    }
+
+    .benefit-text {
+        font-size: 15px;
+    }
+
+    section.video-sec {
+        top: 65%;
+    }
+
+    spline-viewer {
+        height: 40vh;
+    }
+
+    .benefit-wrapper {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 436px) {
+    .bundle-title {
+        font-size: 23px;
+        padding-bottom: 15px;
+    }
+
+    .bundle-content {
+        padding-top: 10px;
+    }
+
+    .bundle-data {
+        padding: 8px 0;
+    }
+
+    .bundle-price {
+        font-size: 22px;
+    }
+
+    .bundle-price .currency {
+        font-size: 18px;
+    }
+
+    .bundle-type-selector {
+        gap: 30px;
+    }
+
+    .hilal-bundles-section .selector-option {
+        font-size: 17px;
+    }
+
+    .bundle-social {
+        max-width: 23px;
+    }
+
+    .hilali-shape-content::after {
+        top: 62px;
+    }
+
+    .player-image {
+        width:200%;
+    }
+
+    .players-section {
+        height: 550px;
+    }
+
+    .hilal-page .players-slider-item {
+        height: 550px;
+    }
+
+    .player-info {
+        top: 40px;
+    }
+
+    .players-slider-wrap .slick-next, .players-slider-wrap .slick-prev {
+        top: 115px;
+    }
+
+    .player-name h2 {
+        font-size: 23px;
+    }
+
+    .player-number {
+        font-size: 21px;
+    }
+
+    .players-slider-wrap .slick-next {
+        transform: scale(0.9) translateX(10px);
+    }
+
+    .players-slider-wrap .slick-prev {
+        transform: translateX(-55px) scale(0.9);
+    }
+
+    .download-app-icon {
+        max-width: 50px;
+    }
+
+    .left-side-pattern {
+        max-width: 350px;
+    }
+
+    .phone-download {
+        max-width: 190px;
+        left: 130px;
+        bottom: -40px;
+    }
+
+    .download-icons-wrap {
+        gap: 10px;
+    }
+
+    .menu-buttons-wrapper {
+        gap: 45px;
+    }
+
+    .menu-logos .rbm-logo {
+        max-width: 140px;
+    }
+
+    .menu-logos .rbm-logo::after {
+        right: -10px;
+    }
+
+    .hilal-mini-logo {
+        max-width: 16px;
+    }
+
+    .join-us-btn a {
+        padding: 10px 35px;
+        font-size: 15px;
+    }
+
+    .news-card-info {
+        padding: 15px 10px;
+    }
+
+    .news-date {
+        font-size: 14px;
+    }
+
+    .news-title h3 {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .hilal-main-logo {
+        padding-top: 70px;
+    }
+
+    .news-pattern-wrapper {
+        bottom: -100px;
+    }
+
+    .hilal-news-section button.slick-next.slick-arrow, .hilal-news-section button.slick-prev.slick-arrow {
+        transform: scale(0.7);
+    }
+
+    .hilal-news-section button.slick-next.slick-arrow {
+        left: 60px;
+    }
+
+    .footer-social-icons {
+        gap: 15px;
+    }
+
+    .footer-social a {
+        max-width: 20px;
+    }
+
+    .footer-logos-icons-cont {
+        padding-bottom: 20px;
+    }
+
+    .footer-download-cont {
+        padding-top: 20px;
+    }
+
+    .video-section {
+        height: 280px;
+        border: 4px solid #fff;
+        border-top: 0;
+        border-bottom: 0;
+    }
+
+    .video-button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .hilal-bundles-container {
+        padding: 180px 15px 70px;
+    }
+
+    .hilal-player-wrapper {
+        bottom: 4px;
+    }
+
+    .hilal-news-title h2 {
+        line-height: 32px;
+        font-size: 25px;
+    }
+
+    .hilal-news-container {
+        padding: 70px 0px 60px;
+    }
+
+    .hilal-news-description {
+        font-size: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+    }
+
+    .hilal-news-description {
+        line-height: 21px;
+        padding-bottom: 15px;
+    }
+
+    .hilal-news-title {
+        padding-bottom: 10px;
+    }
+
+    .news-summary {
+        padding-bottom: 0px;
+    }
+
+    .download-text-title h2 {
+        font-size: 24px;
+    }
+
+    .download-text-desc {
+        font-size: 16px;
+        padding-top: 5px;
+    }
+
+    .benefit-text {
+        font-size: 15px;
+        padding-right: 0;
+    }
+
+    .left-side-pattern {
+        max-width: 320px;
+    }
+
+    .phone-download {
+        max-width: 170px;
+        bottom: -30px;
+    }
+
+    .postpaid-benefit {
+        font-size: 14px;
+    }
+
+    .ticket-text {
+        font-size: 13px;
+    }
+
+    .benefit-icon-wrap {
+        padding: 10px;
+    }
+
+    section.hilal-benefits-sec {
+        bottom: -45%;
+    }
+
+    .benefit-icon-wrap {
+        min-height: 190px;
+        width: 125px;
+        padding: 10px;
+    }
+
+    .benefits-title {
+        font-size: 18px;
+    }
+
+    .hilal-main-logo-container {
+        max-width: 135px;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .benefits-title {
+        font-size: 17px;
+    }
+
+    .hilal-main-logo-container {
+        max-width: 120px;
+    }
+
+    .download-app-pattern {
+        max-width: 250px;
+    }
+
+    .main-menu {
+        padding: 20px 20px;
+    }
+
+    .download-text-desc {
+        font-size: 15px;
+    }
+
+    .main-menu-item.menu-logos {
+        gap: 20px;
+    }
+
+    .menu-logos .rbm-logo::after {
+        right: -10px;
+    }
+
+    .menu-logos .rbm-logo {
+        max-width: 135px;
+    }
+
+    .hilal-mini-logo {
+        max-width: 16px;
+    }
+
+    .menu-buttons-wrapper {
+        gap: 40px;
+    }
+
+    .bundle-title {
+        font-size: 21px;
+        padding-bottom: 15px;
+    }
+
+    .bundle-data {
+        font-size: 15px;
+        padding: 7px 0;
+    }
+
+    .bundle-price {
+        font-size: 21px;
+    }
+
+    .bundle-section-title h2 {
+        font-size: 23px;
+    }
+
+    .bundle-type-wrapper {
+        padding-bottom: 30px;
+    }
+
+    .hilal-bundles-section .selector-option {
+        font-size: 16px;
+    }
+
+    .bundle-type-selector {
+        gap: 15px;
+    }
+
+    .hilal-news-description {
+        line-height: 20px;
+        padding-bottom: 15px;
+        font-size: 15px;
+    }
+
+    .hilal-news-title h2 {
+        line-height: 32px;
+        font-size: 23px;
+    }
+
+    .download-app-stores {
+        gap: 10px;
+        padding-top: 15px;
+    }
+
+    .download-text-title h2 {
+        font-size: 23px;
+    }
+
+    .video-section {
+        height: 250px;
+    }
+
+    .video-button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .hilal-bundles-container {
+        padding: 150px 15px 70px;
+    }
+
+    .hilal-news-cta a {
+        padding: 12px 50px;
+        font-size: 15px;
+    }
+
+    /* .benefit-icon-wrap {
+        width: 90px;
+        height: 90px;
+    } */
+
+    .postpaid-benefit {
+        font-size: 13px;
+    }
+
+    .players-section {
+        height: 515px;
+    }
+
+    .hilal-page .players-slider-item {
+        height: 515px;
+    }
+
+    .player-name h2 {
+        font-size: 22px;
+    }
+
+    .player-number {
+        font-size: 20px;
+    }
+
+    section.hilal-benefits-sec {
+        bottom: -55%;
+    }
+    
+}
+
+@media only screen and (max-width: 376px) {
+    .players-section {
+        height: 500px;
+    }
+
+    .player-name h2 {
+        font-size: 21px;
+    }
+
+    .player-number {
+        font-size: 18px;
+    }
+
+    .players-slider-wrap .slick-next, .players-slider-wrap .slick-prev {
+        top: 110px;
+    }
+
+    .hilal-page .players-slider-item {
+        height: 500px;
+    }
+
+    .bundle-data {
+        font-size: 15px;
+    }
+
+    .bundle-price {
+        font-size: 22px;
+    }
+
+    .bundle-price .currency {
+        font-size: 16px;
+    }
+
+    .validity, .vat, .plan-details a {
+        font-size: 15px;
+    }
+
+    .hilali-shape-content::after {
+        top: 58px;
+    }
+
+    .footer-download-cont .download-text, .footer-follow .follow-text {
+        font-size: 15px;
+    }
+
+    .rbm-logo-footer {
+        max-width: 195px;
+    }
+
+    .news-date, .news-summary {
+        font-size: 13px;
+    }
+    
+    .download-text-desc {
+        font-size: 14px;
+    }
+
+    .main-menu {
+        padding: 20px 15px;
+    }
+
+    .benefit-text {
+        font-size: 14px;
+    }
+
+    .ticket-text {
+        font-size: 12px;
+    }
+
+    .benefit-icon-wrap {
+        min-height: 175px;
+        width: 115px;
+    }
+
+    .benefit-icon {
+        max-width: 35px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .menu-logos .rbm-logo {
+        max-width: 125px;
+    }
+
+    .join-us-btn a {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+    .ticket-text {
+        font-size: 12px;
+    }
+} 

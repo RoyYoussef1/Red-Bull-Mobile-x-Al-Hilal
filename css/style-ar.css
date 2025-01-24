@@ -1,0 +1,126 @@
+body {
+    direction: rtl;
+    font-family: 'GESS', arial;
+}
+
+.menu-logos .rbm-logo::after {
+    left: -15px;
+    right: inherit;
+}
+
+.language-btn a, .bundle-price {
+    font-family: 'Bull';
+}
+
+.language-btn a::before {
+    left: inherit;
+    right: -35px;
+}
+
+.hilali-shape {
+    left: inherit;
+    right: -8px;
+    clip-path: polygon(
+  100% 100%,  /* right bottom */
+  100% 0%,    /* right top    */
+  0%    30%,  /* left ~top    */
+  0%    100%  /* left bottom  */
+);
+    padding: 45px 28px 15px 40px;
+}
+
+.postpaid-benefit-cont {
+    right: inherit;
+    left: 10px;
+}
+
+.plan-details::before {
+    left: inherit;
+    right: 0;
+}
+
+.plan-details {
+    padding-right: 30px;
+    padding-left: 0;
+}
+
+.bundle-pattern-wrapper {
+    right: inherit;
+    left: 0;
+    transform: rotateY(180deg);
+}
+
+.plan-details a:hover {
+    font-weight: 400;
+}
+
+.meet-title {
+    left: inherit;
+    right: 20%;
+}
+
+.player-info {
+    left: inherit;
+    right: 70%;
+}
+
+.players-slider-wrap .slick-next {
+    left: inherit;
+    right: 70%;
+    transform:translateX(-65px);
+}
+
+.players-slider-wrap .slick-prev::before {
+    content: url('../assets/images/right-white-arrow.svg');
+}
+
+.players-slider-wrap .slick-next::before {
+    content: url('../assets/images/left-white-arrow.svg');
+}
+
+.players-slider-wrap .slick-prev {
+    left: inherit;
+    right: 70%;
+}
+
+.left-side-pattern {
+    transform: rotateY(180deg);
+}
+
+.phone-download {
+    transform: rotateY(180deg);
+}
+
+.download-app-pattern-wrapper {
+    right: inherit;
+    left: 0;
+    transform: rotateY(180deg);
+}
+
+.qr-download-app-wrapper {
+    right: 20%;
+    left: inherit;
+}
+
+.news-pattern-wrapper {
+    left: 0;
+}
+
+.footer-pattern-wrapper {
+    right: inherit;
+    left: 0;
+}
+
+.footer-pattern {
+    transform: rotate(180deg);
+}
+
+.footer-logos-icons-cont::after {
+    right: inherit;
+    left: -60%;
+}
+
+.rbm-logo-footer::after {
+    right: inherit;
+    left: -15px;
+}

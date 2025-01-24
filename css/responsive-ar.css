@@ -1,0 +1,131 @@
+@media only screen and (max-width: 1920px) {
+    .qr-download-app-wrapper {
+        right: 25%;
+        left: inherit;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .meet-title {
+        left: inherit;
+        right: 15%;
+    }
+
+    .qr-download-app-wrapper {
+        right: 35%;
+        left: inherit;
+    }
+
+    .download-text-sec {
+        padding-right: 0;
+        padding-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .download-text-sec {
+        padding-right: 0px;
+        padding-left: 60px;
+    }
+
+    .qr-download-app-wrapper .qr-text {
+        max-width: 140px;
+    }
+
+    .player-info {
+        left: inherit;
+        right: 70%;
+    }
+
+    .players-slider-wrap .slick-next {
+        left: inherit;
+        right: 70%;
+    }
+
+    .players-slider-wrap .slick-prev {
+        left: inherit;
+        right: 70%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .second-left-pattern-wrapper {
+        left: inherit;
+        right: -100px;
+    }
+
+    .benefit-wrapper {
+        padding-left: 0;
+        padding-right: 15px;
+    }
+
+    .player-info {
+        right: inherit;
+        bottom: inherit;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 70px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .players-slider-wrap .slick-prev {
+        right: inherit;
+        bottom: inherit;
+        left: 50%;
+        top: 160px;
+    }
+
+    .players-slider-wrap .slick-next {
+        right: inherit;
+        bottom: inherit;
+        left: 50%;
+        top: 160px;
+    }
+
+    .download-text-sec {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .download-app-sec-container {
+        align-items: flex-start;
+    }
+
+    .players-slider-wrap .slick-prev {
+        transform: translateX(35px) scale(0.9);
+    }
+
+    .players-slider-wrap .slick-next {
+        transform: translateX(-25px) scale(0.9);
+    }
+}
+
+@media only screen and (max-width: 568px) {
+}
+
+@media only screen and (max-width: 436px) {
+    .player-info {
+        top: 45px;
+    }
+
+    .players-slider-wrap .slick-prev, .players-slider-wrap .slick-next {
+        top: 125px;
+    }
+
+    .join-us-btn a {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    .bundle-data {
+        padding-bottom: 5px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .players-slider-wrap .slick-prev, .players-slider-wrap .slick-next {
+        top: 120px;
+    }
+}
